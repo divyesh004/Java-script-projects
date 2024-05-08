@@ -75,5 +75,18 @@
     font-weight: bold;
     border: none;
 }
+.input-email
+{
+    width: 100%;
+    padding-left: 10px;
+}
+.submit1
+{
+    border: none;
+    height: 40px;
+    background-color: black;
+    color: #F4E967;
+}
+
 
 

@@ -1,6 +1,4 @@
 const signupForm = document.getElementById("signup");
-
-
 signupForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -43,7 +41,7 @@ signupForm.addEventListener("submit", (e) => {
     icon: "success"
   });
   setInterval(() => {
-    window.location.href = "http://127.0.0.1:5500/html/sign-in.html";
+    window.location.href = "sign-in.html";
   signupForm.reset();
   },1500);
 });

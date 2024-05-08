@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 12%;
+}
+.anouncemt {
+    font-family: "geomanist-bold-webfont";
+
+}
+.someone
+{
+    
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 44%;
+    position: relative;
+    
+}
+.btn1
+{
+    border:none;
+    background-color:#F4E967;
+    padding: 15px 30px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+.btn1:hover
+{
+   background-color: black;
+   color: #F4E967;
+}
+.banner2
+{
+    position:relative;
+
+}
+.someone1
+{
+    transform: translate(-50%,-50%);
+    top: 57%;
+    left: 50%;
+    position:absolute;    
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width:769px) and (max-width:1000px)
+{
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+ @media(max-width:768px)
+{
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+} 
+
