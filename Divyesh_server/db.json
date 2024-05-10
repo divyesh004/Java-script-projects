@@ -1,0 +1,29 @@
+{
+    "product": [
+        {
+            "id": "1",
+            "title": "The Cow Boy",
+            "description": "Black Plated Tungsten / Koa...",
+            "image":"https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands_600x.webp?v=1706907659",
+            "price":["$288","$201.66"]
+
+        },
+        {
+            "id": "1",
+            "title": "The Cow Boy",
+            "description": "Black Plated Tungsten / Koa...",
+            "image":"https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands_600x.webp?v=1706907659",
+            "price":["$288","$201.66"]
+
+        },
+        {
+            "id": "1",
+            "title": "The Cow Boy",
+            "description": "Black Plated Tungsten / Koa...",
+            "image":"https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands_600x.webp?v=1706907659",
+            "price":["$288","$201.66"]
+
+        }
+        
+    ]
+}
