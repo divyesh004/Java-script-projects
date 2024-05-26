@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        .slider-container {
+    max-width: 800px;
+    /* margin: auto; */
+    display: flex;
+    justify-content:end;
+    /* align-items: center; */
+    padding-left: 130px;
+    padding-top: 100px;
+}
+#slider{
+    width: 500px;
+    height: 500px;
+   
+}
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <img src="" id="slider" alt="Slider">
+    </div>
+
+    <script>
+        const images = [
+    "https://plus.unsplash.com/premium_photo-1713823799826-842280e01571?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://plus.unsplash.com/premium_photo-1713823800067-12d5c22861ff?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://plus.unsplash.com/premium_photo-1713823800706-44d0cd5072fb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1616891825379-c37655015a8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://media.istockphoto.com/id/1254366719/photo/red-peony-flowers-bouquet-on-dark-background-still-life-low-key-festive-background.jpg?s=2048x2048&w=is&k=20&c=jRiH_5LIFb1HdcopftIq7Drd9pjxRLOjpZYv_726Oy0="
+];
+
+let index = 0;
+const slider = document.getElementById("slider");
+
+setInterval(function() {
+    slider.src = images[index];
+    index++;
+    if (index === images.length) {
+        index = 0;
+    }
+}, 2000);
+
+    </script>
+</body>
+</html>
